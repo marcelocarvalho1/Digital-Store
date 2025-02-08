@@ -1,5 +1,5 @@
 import { Carousel } from "../../components/Caroussel"
-// import { SectionCard } from "../../Components/SectionCard/SectionCard"
+import { CardSection } from "../../components/CardSection"
 // import { Section } from "../../Components/Section/Section"
 // import { ProductCard } from "../../Components/ProductCard/ProductCard"
 // import { SectionOfert } from "../../Components/SectionOfert/SectionOfert"
@@ -11,8 +11,8 @@ export function HomePage() {
         <>
             <Layout>
                 <Carousel />
-                {/* <SectionCard />
-                <Section />
+                <CardSection/>
+                {/* <Section />
                 <ProductCard />
                 <SectionOfert />  */}
             </Layout>
