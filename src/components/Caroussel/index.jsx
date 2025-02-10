@@ -1,7 +1,7 @@
 import "./Caroussel.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import { ButtonRosa } from "../../components/buttons";
+import { ButtonRosa } from "../../components/Buttons";
 import "swiper/css";
 import "swiper/css/pagination";
 

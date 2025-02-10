@@ -1,5 +1,5 @@
 import "./CardSection.css";
-import { ButtonCard } from "../buttons/index";
+import { ButtonCard } from "../Buttons/index";
 
 const collections = [
   { image: "collection1.png", offer: "30% OFF", title: "Novo Drop Supreme" },
