@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .container-title-card {
@@ -69,14 +70,6 @@ h3 {
   box-sizing: border-box;
 }
 
-.container-title-card {
-  font-size: 24px;
-  font-weight: 700;
-  color: #474747;
-  max-width: 1200px;
-  margin: 4rem 0 2rem 4rem;
-  text-align: left;
-}
 
 .container-collection {
   display: flex;
