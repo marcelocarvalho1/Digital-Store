@@ -2,12 +2,14 @@ section {
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  
 }
 
 section > h2 {
   text-align: center;
   font-size: 24px;
   margin: 100px 0px 40px 0px;
+  
 
   color: #474747;
 }
@@ -20,6 +22,7 @@ section > .main {
   height: 180px;
   gap: 2rem;
   margin: 0 auto;
+  
 }
 
 section > .main > .f {
