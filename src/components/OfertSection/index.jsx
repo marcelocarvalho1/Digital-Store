@@ -22,7 +22,10 @@ export function OfertSection() {
         <span className="title-ofert">Oferta especial</span>
         <h2>Air Jordan edição de colecionador</h2>
         <p className="lorem-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip
         </p>
         <NavLink to="/viewProduct">
           <ButtonRosa />
