@@ -2,7 +2,7 @@ import { Carousel } from "../../components/Caroussel"
 import { CardSection } from "../../components/CardSection"
 import { Section } from "../../components/Section"
 import { ProductCard } from "../../components/ProductCard"
-// import { SectionOfert } from "../../Components/SectionOfert/SectionOfert"
+import { OfertSection } from "../../components/OfertSection"
 import Layout from "../Layout";
 
 
@@ -14,7 +14,7 @@ export function HomePage() {
                 <CardSection/>
                 <Section />
                 <ProductCard />
-                {/* <SectionOfert />  */}
+                <OfertSection /> 
             </Layout>
         </>
     )
