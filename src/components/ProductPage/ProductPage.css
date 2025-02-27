@@ -1,0 +1,146 @@
+/* Estilo geral */
+.bg-color {
+    background-color: #f5f5f5;
+    padding-top: 1rem;
+  }
+  
+  .prodCard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Cabeçalho da página */
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .first h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .ordenar-por {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .ordenar-por span {
+    font-weight: 700;
+  }
+  
+  .ordenar-por select {
+    border-radius: 5px;
+    border: 2px solid #474747;
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Layout principal */
+  .content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  /* Sidebar de filtros */
+  .filter {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+  
+  .filter hr {
+    margin: 1.5rem 0;
+    border: none;
+    height: 1px;
+    background: #ccc;
+  }
+  
+  .filter p {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter input[type="checkbox"],
+  .filter input[type="radio"] {
+    accent-color: #c92071;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Área dos produtos */
+  .second {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    flex-grow: 1;
+  }
+  
+  /* Estilo dos cards de produtos */
+  .product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .descPorc {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #c92071;
+    margin-top: 5px;
+  }
+  
+  .prices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .price {
+    color: #8f8f8f;
+    text-decoration: line-through;
+  }
+  
+  .priceDisc {
+    font-weight: bold;
+    color: #000;
+  }
+  

@@ -1,5 +1,5 @@
-import { ProductPage } from "../../Components/ProductPage/ProductPage";
-import Layout from "../Layout/Layout";
+import { ProductPage } from "../../components/ProductPage/ProductPage";
+import Layout from "../Layout";
 
 export function ProductListingPage() {
   return (
