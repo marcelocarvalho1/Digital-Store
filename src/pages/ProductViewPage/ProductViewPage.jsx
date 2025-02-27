@@ -1,7 +1,7 @@
 import React from "react";
-import { DescProduct } from "../../Components/DescProduct/DescProduct";
-import { ProductCard } from "../../Components/ProductCard/ProductCard";
-import Layout from "../Layout/Layout";
+import { DescProduct } from "../../components/DescProduct/DescProduct";
+import { ProductCard } from "../../components/ProductCard";
+import Layout from "../Layout";
 
 export function ProductViewPage() {
   return (
