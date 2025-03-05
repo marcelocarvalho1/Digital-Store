@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import ArrowBottom from "../../assets/arrow-bottom.svg";
 import TenisCard from "../../assets/tenisCard.svg";
 
-const products = Array(15).fill({
-  nome: "Tênis",
-  descricao: "K-Swiss V8 - Masculino",
-  descPorc: "30% OFF",
-  preco: "$200",
-  desconto: "$100",
-  image: TenisCard,
-});
+const products = Array(15)
+  .fill(null)
+  .map((_, index) => ({
+    nome: "Tênis",
+    descricao: "K-Swiss V8 - Masculino",
+    descPorc: index < 2 ? "30% OFF" : "",
+    preco: "$200",
+    desconto: "$100",
+    image: TenisCard,
+  }));
 
 export function ProductPage() {
   return (
@@ -36,7 +38,10 @@ export function ProductPage() {
               {["Adidas", "Calenciaga", "K-Swiss", "Nike", "Puma"].map(
                 (brand, index) => (
                   <div key={index}>
-                    <input type="checkbox" defaultChecked={brand === "Adidas" || brand === "K-Swiss"} />
+                    <input
+                      type="checkbox"
+                      defaultChecked={brand === "Adidas" || brand === "K-Swiss"}
+                    />
                     <label>{brand}</label>
                   </div>
                 )
@@ -47,7 +52,10 @@ export function ProductPage() {
               {["Esporte e lazer", "Casual", "Utilitário", "Corrida"].map(
                 (category, index) => (
                   <div key={index}>
-                    <input type="checkbox" defaultChecked={category === "Esporte e lazer"} />
+                    <input
+                      type="checkbox"
+                      defaultChecked={category === "Esporte e lazer"}
+                    />
                     <label>{category}</label>
                   </div>
                 )
@@ -57,7 +65,12 @@ export function ProductPage() {
             <form>
               {["Masculino", "Feminino", "Unissex"].map((gender, index) => (
                 <div key={index}>
-                  <input type="checkbox" defaultChecked={gender === "Masculino" || gender === "Feminino"} />
+                  <input
+                    type="checkbox"
+                    defaultChecked={
+                      gender === "Masculino" || gender === "Feminino"
+                    }
+                  />
                   <label>{gender}</label>
                 </div>
               ))}
@@ -74,16 +87,19 @@ export function ProductPage() {
           </aside>
           <div className="second">
             {products.map((produto, index) => (
-              <Link to="/viewProduct" key={index} className="product-item">
-                <div>
+              <Link to="/viewProduct" key={index} className="prod-page-item">
+                <div className="prod-page-image">
                   <img src={produto.image} alt={produto.nome} />
-                  <p className="descPorc">{produto.descPorc}</p>
+                  {/* Aplica a classe e renderiza o desconto apenas se o descPorc não estiver vazio */}
+                  {produto.descPorc && (
+                    <p className="prod-page-descPorc">{produto.descPorc}</p>
+                  )}
                 </div>
-                <p>{produto.nome}</p>
-                {produto.descricao}
-                <div className="prices">
-                  <p className="price">{produto.preco}</p>
-                  <p className="priceDisc">{produto.desconto}</p>
+                <p className="prod-page-nome">{produto.nome}</p>
+                <p className="prod-page-descricao">{produto.descricao}</p>
+                <div className="prod-page-prices">
+                  <p className="prod-page-price">{produto.preco}</p>
+                  <p className="prod-page-priceDisc">{produto.desconto}</p>
                 </div>
               </Link>
             ))}
