@@ -68,26 +68,26 @@ export function ProductCard({ quantidadeProdutos }) {
   const produtosParaMostrar = products.slice(0, quantidadeProdutos);
 
   return (
-    <div className="color-bg">
-      <section className="prodCard">
-        <div className="first">
+    <div className="prod-card-bg">
+      <section className="prod-card">
+        <div className="prod-card-header">
           <h2>Produtos em alta</h2>
           <Link to="/products">
             Ver todos <img src={ArrowRight} alt="" />
           </Link>
         </div>
-        <div className="second">
+        <div className="prod-card-grid">
           {produtosParaMostrar.map((produto, index) => (
-            <div key={index} className="product-item">
-              <div>
+            <div key={index} className="prod-card-item">
+              <div className="prod-card-image">
                 <img src={produto.image} alt={produto.nome} />
-                <p className="descPorc">{produto.descPorc}</p>
+                {produto.descPorc && <p className="prod-card-descPorc">{produto.descPorc}</p>}
               </div>
-              <p>{produto.nome}</p>
-              {produto.descricao}
-              <div className="prices">
-                <p className="price">{produto.preco}</p>
-                <p className="priceDisc">{produto.desconto}</p>
+              <p className="prod-card-name">{produto.nome}</p>
+              <p className="prod-card-desc">{produto.descricao}</p>
+              <div className="prod-card-prices">
+                <p className="prod-card-price">{produto.preco}</p>
+                <p className="prod-card-priceDisc">{produto.desconto}</p>
               </div>
             </div>
           ))}
