@@ -1,0 +1,122 @@
+
+.cadastro-wrapper {
+    width: 100vw; 
+    background: #f5f1f8; 
+    padding: 40px 0; 
+    margin-top: 2px
+  }
+  
+.cadastro-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.cadastro-titulo {
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cadastro-secao {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.cadastro-secao h3 {
+    display: flex;
+  font-size: 18px;
+  margin-left: auto;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  font-weight: bold;
+  font-size: 14px;
+
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  background: #faf9f9;
+}
+
+.cadastro-checkbox {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.cadastro-checkbox input {
+  margin-right: 10px;
+}
+
+.cadastro-checkbox label {
+  font-size: 14px;
+  color: #3f3f3f;
+}
+
+.cadastro-botao {
+  width: 100%;
+  background: #c2185b;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cadastro-botao:hover {
+  background: #9c1448;
+}
+.cadastro-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.cadastro-checkbox input {
+  appearance: none;
+  width: 25px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.cadastro-checkbox input:checked {
+  background-color: #c2185b;
+}
+
+.cadastro-checkbox input:checked::after {
+  content: "✔";
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  left: 3px;
+  top: 1px;
+}

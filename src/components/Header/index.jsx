@@ -3,6 +3,7 @@ import cartIcon from "../../assets/cart-icon.svg";
 import Search from "../../assets/Search.svg";
 import { Logo } from "../Logo";
 import { NavBar } from "../NavBar";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
@@ -14,7 +15,7 @@ export function Header() {
           <img className="search-icon" src={Search} alt="Ícone de pesquisa" />
         </div>
         <div>
-          <a href="">Cadastre-se</a>
+          <Link to="/register">Cadastre-se</Link>
           <button>Entrar</button>
           <img className="cart" src={cartIcon} alt="Carrinho de Compras" />
         </div>
