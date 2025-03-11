@@ -1,5 +1,5 @@
 import { Footer } from "../../components/Footer";
-import { UserCad } from "../../components/UserCad/UserCad";
+import { UserCad } from "../../components/UserCad";
 import { Header2 } from "../../components/Header2";
 
 

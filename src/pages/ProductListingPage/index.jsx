@@ -1,4 +1,4 @@
-import { ProductPage } from "../../components/ProductPage/ProductPage";
+import { ProductPage } from "../../components/ProductPage";
 import Layout from "../Layout";
 
 export function ProductListingPage() {

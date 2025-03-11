@@ -1,11 +1,11 @@
 import './DescProduct.css';
 import React, { useState } from 'react';
-import Star from '../Stars/Stars';
+import Star from '../Stars';
 import { FaStar } from 'react-icons/fa';
-import ColorShoes from '../ColorsShoes/ColorsShoes';
+import ColorShoes from '../ColorsShoes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import SizeButtonShoes from '../SizeButtonShoes/SlideShoes';
+import SizeButtonShoes from '../SizeButtonShoes';
 
 import Tenis1 from '../../../public/detalhes.png';
 

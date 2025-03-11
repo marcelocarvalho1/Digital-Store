@@ -1,5 +1,5 @@
 import React from "react";
-import { DescProduct } from "../../components/DescProduct/DescProduct";
+import { DescProduct } from "../../components/DescProduct";
 import { ProductCard } from "../../components/ProductCard";
 import Layout from "../Layout";
 
