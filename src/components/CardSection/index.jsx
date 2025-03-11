@@ -1,11 +1,14 @@
 import "./CardSection.css";
 import { ButtonCard } from "../Buttons/index";
 
+import collection1 from "../../../public/collection1.png";
+import collection2 from "../../../public/collection2.png";
+import collection3 from "../../../public/collection3.png";
 
 const collections = [
-  { image: "collection1.png", offer: "30% OFF", title: "Novo Drop Supreme" },
-  { image: "collection2.png", offer: "30% OFF", title: "Coleção Adidas" },
-  { image: "collection3.png", offer: "30% OFF", title: "Novo Beat Bass" },
+  { image: collection1, offer: "30% OFF", title: "Novo Drop Supreme" },
+  { image: collection2, offer: "30% OFF", title: "Coleção Adidas" },
+  { image: collection3, offer: "30% OFF", title: "Novo Beat Bass" },
 ];
 
 export function CardSection() {
@@ -18,7 +21,7 @@ export function CardSection() {
             <div
               key={index}
               className="collection"
-              style={{ backgroundImage: `url(../../../../../public/${collection.image})` }}
+              style={{ backgroundImage: `url(${collection.image})` }}
             >
               <div className="oferta">{collection.offer}</div>
               <h3>{collection.title}</h3>
