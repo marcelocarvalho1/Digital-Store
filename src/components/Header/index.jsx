@@ -15,8 +15,8 @@ export function Header() {
           <img className="search-icon" src={Search} alt="Ícone de pesquisa" />
         </div>
         <div>
-          <Link to="/register">Cadastre-se</Link>
-          <button>Entrar</button>
+          <Link to="/register" className="cadastre">Cadastre-se</Link>
+          <Link to="/login" className="entrar">Entrar</Link>
           <img className="cart" src={cartIcon} alt="Carrinho de Compras" />
         </div>
       </div>
