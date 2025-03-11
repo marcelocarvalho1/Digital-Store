@@ -1,6 +1,8 @@
 import './SectionLogin.css'
-// import Facebook from '../../../public/icon-facebook.svg'
-// import Gmail from '../../../public/icon-gmail.svg'
+import { FaFacebook } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+
+import Sapatos from '../../../public/login.png'
 
 export function SectionLogin() {
     return (
@@ -18,11 +20,13 @@ export function SectionLogin() {
                         <button>Acessar a Conta</button>
                         <div className='login-rede-sociais'>
                             <span>Ou faça login com</span>
+                            <FcGoogle />
+                            <FaFacebook />
                         </div>
                     </form>
                 </div>
                 <div className='image-sapatos'>
-                    {/* <img src={Sapatos} className='sapatos-login' alt="sapatos" /> */}
+                    <img src={Sapatos} className='sapatos-login' alt="sapatos" />
                 </div>
             </section>
         </>

@@ -1,5 +1,5 @@
 .color-bg{
-    background-color: #f6f2f8b6; 
+    background: linear-gradient(to right, #b5b6f2, #efefff);
     padding: 10px;
     font-weight: bold;
 }

@@ -1,7 +1,7 @@
 
 .cadastro-wrapper {
     width: 100vw; 
-    background: #f5f1f8; 
+    background: linear-gradient(to right, #b5b6f2, #efefff);
     padding: 40px 0; 
     margin-top: 2px
   }
