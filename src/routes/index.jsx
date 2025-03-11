@@ -3,6 +3,7 @@ import { HomePage } from '../pages/HomePage'
 import { ProductListingPage } from '../pages/ProductListingPage'
 import { ProductViewPage } from '../pages/ProductViewPage'
 import { CreateAccountPage } from './../pages/CreateAccountPage/CreateAccount';
+import { LoginPage } from "../pages/LoginPage/Login";
 
 
 export function AppRoutes() {
@@ -12,6 +13,7 @@ export function AppRoutes() {
             <Route path="/products" element={<ProductListingPage />} />
             <Route path="/viewProduct" element={<ProductViewPage />} />
             <Route path="/register" element={<CreateAccountPage />} />
+            <Route path="/login" element={<LoginPage />} />
         </Routes>
     )
 }
