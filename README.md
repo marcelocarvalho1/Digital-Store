@@ -25,7 +25,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
    No terminal, execute o comando abaixo para clonar o repositório para sua máquina local:
 
    ```bash
-   - git clone https://github.com/marcelocarvalho1/drip-store.git
+    git clone https://github.com/marcelocarvalho1/drip-store.git
    
 2. Instale as dependências:
 - cd drip-store
