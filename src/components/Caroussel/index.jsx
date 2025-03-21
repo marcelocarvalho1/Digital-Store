@@ -11,28 +11,28 @@ const slides = [
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/public/TenisSlide.svg",
+    image: "/src/assets/TenisSlide.svg",
   },
   {
     title: "Melhores Ofertas Personalizadas",
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/public/TenisSlide.svg",
+    image: "/src/assets/TenisSlide.svg",
   },
   {
     title: "Melhores Ofertas Personalizadas",
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/public/TenisSlide.svg",
+    image: "/src/assets/TenisSlide.svg",
   },
   {
     title: "Melhores Ofertas Personalizadas",
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/public/TenisSlide.svg",
+    image: "/src/assets/TenisSlide.svg",
   },
 ];
 
