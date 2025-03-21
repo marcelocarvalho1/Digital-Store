@@ -4,6 +4,8 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { ButtonRosa } from "../../components/Buttons";
 import "swiper/css";
 import "swiper/css/pagination";
+import TenisSlide from '/src/assets/TenisSlide.svg';
+
 
 const slides = [
   {
@@ -11,28 +13,28 @@ const slides = [
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/src/assets/TenisSlide.svg",
+    image: TenisSlide,
   },
   {
     title: "Melhores Ofertas Personalizadas",
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/src/assets/TenisSlide.svg",
+    image: TenisSlide,
   },
   {
     title: "Melhores Ofertas Personalizadas",
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/src/assets/TenisSlide.svg",
+    image: TenisSlide,
   },
   {
     title: "Melhores Ofertas Personalizadas",
     subtitle: "Queima de Estoque Nike 🔥",
     description:
       "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
-    image: "/src/assets/TenisSlide.svg",
+    image: TenisSlide,
   },
 ];
 
