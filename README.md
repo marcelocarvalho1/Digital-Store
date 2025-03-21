@@ -2,6 +2,8 @@
 
 **Drip Store** é uma loja online especializada na venda de sapatos esportivos, desenvolvida como um projeto prático durante o curso de Desenvolvimento Web Full Stack. O objetivo principal do projeto é aplicar os conceitos e habilidades adquiridos durante o curso, utilizando tecnologias modernas para oferecer uma experiência de compra fluida e interativa.
 
+Disponivel em: https://digital-store-omega.vercel.app/
+
 ![image](https://github.com/user-attachments/assets/87e84b6a-6130-4ed2-b1d1-3d913dd22d5e)
 
 
